@@ -1,30 +1,71 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Authors
 
-Currently, two official plugins are available:
+- [@yashkotadia2](https://github.com/yashkotadia2/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+link to demo
+https://lexi-match.netlify.app/
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Tech Stack
+
+ React, Zustand, Sass
+
+
+## Instructions
+### Lexi Match
+
+Lexi Match is a React project created using Vite. It's a word matching game designed to enhance vocabulary skills across languages.
+
+## Requirements
+
+- React.js (recommended version 14 or later)
+
+## Getting Started
+
+Follow these instructions to get a local copy of the project up and running on your machine.
+
+### Installation
+
+Clone the repository to your local machine:
+
+```
+git clone https://github.com/yashkotadia2/lexi-match
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Navigate to the project directory:
+
+```
+cd lexi-match
+
+```
+Install dependencies using npm:
+
+```
+npm Install
+
+```
+
+### Running The App:
+
+```
+npm run dev
+```
+The app will be served at http://localhost:5173.
+
+
+
+### Building The App:
+To build the app for production, run:
+
+
+```
+npm run build
+```
+The production-ready build will be located in the **/dist** directory.
+
+
+
