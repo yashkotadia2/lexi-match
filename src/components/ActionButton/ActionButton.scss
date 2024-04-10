@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Play-Bold";
+  src: url("../../assets/fonts/play/Play-Bold.ttf");
+}
+
+.action-button-container {
+  position: absolute;
+  width: 10rem;
+  transition: all 0.3s ease-in-out;
+
+  button {
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    background: #f1c40f;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    font-family: "Play-Bold", sans-serif;
+
+    &:active {
+      background: #f39c12;
+      box-shadow: none;
+    }
+  }
+}
